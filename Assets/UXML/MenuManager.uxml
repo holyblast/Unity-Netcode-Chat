@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Test" src="project://database/Assets/UXML/Test.uxml?fileID=9197481963319205126&amp;guid=69ff8e8002d3bb74d867deab667a3889&amp;type=3#Test" />
+    <ui:Template name="ChatUI" src="project://database/Assets/UXML/ChatUI.uxml?fileID=9197481963319205126&amp;guid=0fd18e2cc5712d64e91018479a7de941&amp;type=3#ChatUI" />
+    <ui:VisualElement name="MenuManager" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="Screens" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
+            <ui:Instance template="Test" name="Test" style="display: flex; height: 100%;">
+                <AttributeOverrides element-name="Server" text="Server" />
+            </ui:Instance>
+            <ui:Instance template="ChatUI" name="ChatUI" style="display: none; height: 100%; visibility: visible; overflow: visible; opacity: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

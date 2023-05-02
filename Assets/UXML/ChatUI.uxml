@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
+        <ui:VisualElement name="TextArea" style="flex-grow: 0; background-color: rgba(136, 136, 136, 0.34); width: 50%; height: 50%;" />
+        <ui:VisualElement name="Container" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 50%; height: 5%; flex-direction: row;">
+            <ui:TextField picking-mode="Ignore" name="Message" style="flex-grow: 1; flex-shrink: 1;" />
+            <ui:Button text="Send" display-tooltip-when-elided="true" name="SendMessage" style="-unity-text-align: middle-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

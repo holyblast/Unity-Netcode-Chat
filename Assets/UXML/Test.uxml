@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UXML/Test.uss?fileID=7433441132597879392&amp;guid=041ee57a3cbce6f4fafcb17dba855533&amp;type=3#Test" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
+        <ui:VisualElement name="Container" style="flex-grow: 0; background-color: rgba(233, 205, 184, 0.78); align-items: center; flex-basis: 20%; justify-content: space-around; margin-left: 0; margin-right: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 5px; flex-direction: row; -unity-font-style: normal;">
+            <ui:Button text="Host" display-tooltip-when-elided="true" name="Host" class="button" />
+            <ui:Button text="תרש" display-tooltip-when-elided="true" name="Server" class="button" style="-unity-font: url(&apos;project://database/Assets/Fonts/Tinos-Regular.ttf?fileID=12800000&amp;guid=ca0f5cbbda53bfc4fbabbaf7a457fcd1&amp;type=3#Tinos-Regular&apos;);" />
+            <ui:Button text="Client" display-tooltip-when-elided="true" name="Client" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

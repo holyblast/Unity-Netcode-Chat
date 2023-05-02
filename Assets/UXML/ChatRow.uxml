@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+        <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="UserInfo" text="sadasdsadas" style="width: auto;" />
+        <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="Message" text="dsadasdsadas" style="width: 300px; flex-grow: 1; flex-shrink: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
